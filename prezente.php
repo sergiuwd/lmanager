@@ -773,7 +773,6 @@ table.fc-border-separate {
                                             <th>Nume</th>
                                             <th class="col-lg-1">Prezente de la ultima achitare</th>
 											<th><p>Acumulat</p><span id="total"></span></th>
-											<th class="col-lg-2">Calendar prezente</th>
                                             <th class="col-lg-2">Prezenta</th>
 											<th class="col-lg-2">Status</th>
                                         </tr>
@@ -836,8 +835,6 @@ table.fc-border-separate {
 											echo '<td><h4 class="cprez text-center">'.$zileplata.'</h4></td>';
 
 											echo '<td><h4 class="cplata text-right"><span class="cval">'.$deplata.'</span> Lei</h4></td>';
-
-											echo '<td><button class="btn btn-lg btn-default btn-block calendar">Vezi calendar</button></td>';
 
 											if($prezent){
 												echo '<td><button class="btn btn-lg btn-danger btn-block prezent">Marcheaza ca absent</button></td>';
